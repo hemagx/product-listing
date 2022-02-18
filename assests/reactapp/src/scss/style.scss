@@ -1,0 +1,30 @@
+$font-stack: Helvetica, Tahoma, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+.delete-checkbox {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.productCard {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    p {
+        margin-bottom: 0;
+    }
+}
+
+.subform {
+    padding-top: 20px;
+    padding-left: 5%;
+}
+
+.form-error {
+    padding: 5px;
+}
